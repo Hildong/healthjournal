@@ -32,4 +32,4 @@ const workoutStatsSchema = new Schema<IWorkoutStats>(
     }
 )
 
-export const WorkoutStats = Model<IWorkoutStats> = model("Workoutstats", workoutStatsSchema)
+export let WorkoutStats = Model<IWorkoutStats> = model("Workoutstats", workoutStatsSchema)
