@@ -1,0 +1,6 @@
+.modalForm {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    row-gap: 10px;
+    align-items: center;
+}

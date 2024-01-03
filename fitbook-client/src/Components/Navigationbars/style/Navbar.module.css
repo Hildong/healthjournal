@@ -1,0 +1,59 @@
+.Navbar {
+    height: 100vh;
+    background-color: rgb(254, 255, 254);
+    width: 12%;
+    display: inline-block;
+    position: relative;
+    box-shadow: 3px 1px 8px 1px rgba(0,0,0,0.05);
+    -webkit-box-shadow: 3px 1px 8px 1px rgba(0,0,0,0.05);
+    -moz-box-shadow: 3px 1px 8px 1px rgba(0,0,0,0.05);
+}
+
+.logoutDiv {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3vh;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.logOutButton {
+    position: absolute;
+    bottom: 5;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.logoutDiv:hover {
+    background-color: rgba(223, 253, 255, 0.459);
+    color: rgb(90, 90, 90);
+}
+
+.navbarLink {
+    margin-top: 5px;
+    padding-left: 10px;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.navbarLink:hover {
+    background-color: rgba(168, 249, 255, 0.459);
+    color: rgb(90, 90, 90);
+}
+
+.userPartDiv {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.userPartName {
+    font-weight: 300;
+    font-size: 18px;
+}

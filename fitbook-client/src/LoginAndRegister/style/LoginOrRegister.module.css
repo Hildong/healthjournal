@@ -1,0 +1,56 @@
+.SignInOrUpDiv {
+    border: 0px solid black;
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
+    margin: 20vh auto;
+    background-color: white;
+    box-shadow: 4px 5px 5px -2px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 4px 5px 5px -2px rgba(0,0,0,0.35);
+    -moz-box-shadow: 4px 5px 5px -2px rgba(0,0,0,0.35);
+}
+
+.header {
+    font-family: serif
+}
+
+.inputAndButtonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputs {
+    width: 280px;
+    margin-top: 10px;;
+}
+
+.button {
+    width: 100px;
+    margin-top: 30px;
+}
+
+.switchView {
+    cursor: pointer;
+    height: 30px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transition: .3s;
+    color: purple;
+}
+
+.switchView p:hover {
+    transition: .3s;
+    color: rgb(44, 109, 102);
+}
+
+.background {
+    overflow: auto;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(148,63,251);
+    background: linear-gradient(90deg, rgba(148,63,251,1) 43%, rgba(70,104,252,1) 100%);
+}
