@@ -42,7 +42,7 @@ app.use(
 app.use(passport.initialize())
 app.use(passport.session())
 import './auth/passport'
-import { checkAuthenticated } from './auth/auth';
+import checkAuthenticated from './auth/auth';
 
 app.use("/auth", authRouter.default)
 app.use("/workout", checkAuthenticated, workoutStatsRouter)
