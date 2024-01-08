@@ -23,7 +23,7 @@ function App() {
             <div className={activeUser ? styles.loggedInMainDiv : styles.loggedOutMainDiv}>
                 <Routes>
                     <Route path="/dashboard" element={<Suspense fallback={<div>Loading...</div>}><PrivateRoute><Dashboard/></PrivateRoute></Suspense>}/>
-                    <Route path="/" element={<LoginAndRegisterPage />}/>
+                    <Route path="*" element={<LoginAndRegisterPage />}/>
                 </Routes>
             </div>
         </div>
