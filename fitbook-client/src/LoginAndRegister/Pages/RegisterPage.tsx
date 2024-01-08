@@ -13,6 +13,7 @@ function RegisterPage() {
     const onRegister = () => {
         addUser.mutateAsync({email: inputtedEmail, username: inputtedUsername, password: inputtedPassword})
             .then(res => {
+                console.log(res)
                 if(res.status === 201) {
                     console.log("Success")
                 }
