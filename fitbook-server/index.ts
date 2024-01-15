@@ -9,7 +9,7 @@ import passport from 'passport';
 import * as authRouter from './auth/routes/auth.routes';
 import workoutStatsRouter from './routes/workoutStats.route';
 
-const allowedOrigins = ["http://localhost:3000", "https://api.api-ninjas.com", "http://192.168.1.202:3000", "https://ec2-51-20-7-43.eu-north-1.compute.amazonaws.com:3000/", "https://ec2-51-20-7-43.eu-north-1.compute.amazonaws.com:8000/"]
+const allowedOrigins = ["https://api.api-ninjas.com", "https://ec2-51-20-7-43.eu-north-1.compute.amazonaws.com:3000/", "https://ec2-51-20-7-43.eu-north-1.compute.amazonaws.com:8000/"]
 
 const options: CorsOptions = {
     origin: allowedOrigins,
