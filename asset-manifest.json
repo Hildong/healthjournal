@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/healthjournal/static/css/main.3464b253.css",
-    "main.js": "/healthjournal/static/js/main.20940a92.js",
+    "main.js": "/healthjournal/static/js/main.b725500f.js",
     "index.html": "/healthjournal/index.html",
     "main.3464b253.css.map": "/healthjournal/static/css/main.3464b253.css.map",
-    "main.20940a92.js.map": "/healthjournal/static/js/main.20940a92.js.map"
+    "main.b725500f.js.map": "/healthjournal/static/js/main.b725500f.js.map"
   },
   "entrypoints": [
     "static/css/main.3464b253.css",
-    "static/js/main.20940a92.js"
+    "static/js/main.b725500f.js"
   ]
 }
