@@ -8,7 +8,7 @@ import axios from 'axios';
 import { UserProvider } from './context/UserContext';
 
 const queryClient = new QueryClient()
-axios.defaults.baseURL = "https://ec2-16-171-155-197.eu-north-1.compute.amazonaws.com:8000/"//"http://localhost:8000"
+axios.defaults.baseURL = "https://healthjournal.onrender.com:8000/"//"http://localhost:8000"
 axios.defaults.withCredentials = true
 
 const root = ReactDOM.createRoot(
