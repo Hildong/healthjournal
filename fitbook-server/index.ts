@@ -9,7 +9,7 @@ import passport from 'passport';
 import * as authRouter from './auth/routes/auth.routes';
 import workoutStatsRouter from './routes/workoutStats.route';
 
-const allowedOrigins = ["https://hildong.github.io/healthjournal/", "https://api.api-ninjas.com"]
+const allowedOrigins = ["https://hildong.github.io/healthjournal/", "https://api.api-ninjas.com", "https://healthjournal.onrender.com/"]
 
 const options: CorsOptions = {
     origin: allowedOrigins,
@@ -18,6 +18,7 @@ const options: CorsOptions = {
 
 const app: Application = express();
 const port = process.env.PORT || 8000;
+const prodPort = ""
 const mongo_uri = process.env.MONGO_URI
 
 mongoose.set("strictQuery", true)

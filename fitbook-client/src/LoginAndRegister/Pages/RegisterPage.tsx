@@ -19,7 +19,7 @@ function RegisterPage() {
                 }
             })
             .catch(err => {
-                if(err.response.status === 400) {
+                if(err) {
                     messageApi.open({
                         type: "error",
                         content: "Email already registered"
