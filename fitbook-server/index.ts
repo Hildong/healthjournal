@@ -28,7 +28,7 @@ connection.once("open", function () {
   console.log("MongoDB database connection established successfully")
 })
 
-app.use(cors(process.env.DEV_MODE ? options : undefined))
+app.use(cors(options))
 app.use(express.json())
 
 app.use(
