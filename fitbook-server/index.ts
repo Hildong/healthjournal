@@ -29,6 +29,9 @@ connection.once("open", function () {
   console.log("MongoDB database connection established successfully")
 })
 
+app.use(passport.initialize())
+app.use(passport.session())
+
 app.use(cors(options))
 app.use(express.json())
 
@@ -47,8 +50,6 @@ app.use(
         cookie: {secure: true, maxAge: 24 * 60 * 60 * 1000}
     })
 )
-app.use(passport.initialize())
-app.use(passport.session())
 import './auth/passport'
 import { checkAuthenticated } from './auth/auth';
 
