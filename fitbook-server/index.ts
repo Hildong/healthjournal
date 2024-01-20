@@ -9,7 +9,7 @@ import passport from 'passport';
 import * as authRouter from './auth/routes/auth.routes';
 import workoutStatsRouter from './routes/workoutStats.route';
 
-const allowedOrigins = ["https://hildong.github.io/healthjournal/", "https://api.api-ninjas.com", "https://healthjournal.onrender.com/", "/\.onrender\.com$/"]
+const allowedOrigins = ["https://hildong.github.io/healthjournal", "https://api.api-ninjas.com", "https://healthjournal.onrender.com", "/\.onrender\.com$/"]
 
 const options: CorsOptions = {
     origin: allowedOrigins,
